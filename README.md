@@ -13,7 +13,7 @@ correr nada. Para regenerarlos: *Restart Kernel + Run All* (necesita `numpy`, `m
    medidas → ajuste → líneas de campo → qué se ve.
 4. **Comparación ideal vs. medido** (gráficos lado a lado) + discusión.
 5. **Conclusiones**
-6. **Bibliografía**
+6. **Bibliografía y herramientas** (incluye declaración de uso de IA)
 
 ## Qué se agregó respecto del notebook base
 
