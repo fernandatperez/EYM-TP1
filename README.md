@@ -10,9 +10,10 @@ correr nada. Para regenerarlos: *Restart Kernel + Run All* (necesita `numpy`, `m
 2. **Introducción y marco teórico** — campo, potencial, `E = -∇V`, equipotenciales; modelo ideal
    de cada configuración con sus ecuaciones y las gráficas ideales (2.7).
 3. **Desarrollo** — materiales, procedimiento, y para cada configuración: datos → equipotenciales
-   medidas → ajuste → líneas de campo → qué se ve.
-4. **Comparación ideal vs. medido** (gráficos lado a lado) + discusión.
-5. **Conclusiones**
+   medidas → ajuste → qué se ve (incluye cómo tienen que ser las líneas de campo, deducidas de
+   las equipotenciales por perpendicularidad, sin reconstrucción numérica).
+4. **Comparación ideal vs. medido** (gráficos lado a lado).
+5. **Conclusiones** (incluye la discusión de cada configuración y la comparación entre ambas)
 6. **Bibliografía y herramientas** (incluye declaración de uso de IA)
 
 ## Qué se agregó respecto del notebook base
@@ -21,12 +22,17 @@ correr nada. Para regenerarlos: *Restart Kernel + Run All* (necesita `numpy`, `m
   rectangular `x = 2·V`, polar `θ = (π/2 / 10)·V`.
 - Gráficas del modelo ideal (`modelo_ideal_rectangular`, `modelo_ideal_polar`).
 - **Configuración 2 (láminas a 90°)** completa: análisis polar con vértice en `(25,15)`,
-  cambio de coordenadas `x' = 25-x, y' = 15-y` para dejar el origen abajo-izquierda,
-  ajuste `V(θ)` y reconstrucción de líneas de campo.
+  cambio de coordenadas `x' = 25-x, y' = 15-y` para dejar el origen abajo-izquierda, y
+  ajuste `V(θ)`.
 - Comparación ideal vs. medido para las dos configuraciones + desvío medio por equipotencial
   (en cm y en grados).
-- Reconstrucción del campo (`E = -∇V` numérico) con `streamplot`.
+- Fotos del montaje (`materiales.jpg`, `paralela.jpeg`, `polar.jpeg`).
 - Texto reescrito en tono relajado.
+
+**Sacado:** la reconstrucción numérica del campo (`griddata` + `streamplot`) que había en 3.3.4 y
+3.4.4. Con puntos solo sobre 6 equipotenciales (no una grilla), interpolar el campo en todo el
+plano era inferir más de lo que midamos. Ahora las líneas de campo se describen de forma
+cualitativa: perpendiculares a las equipotenciales medidas.
 
 ## Resultados
 
@@ -39,4 +45,4 @@ La diferencia se atribuye a la caída de tensión en el contacto lámina–agua.
 
 ## Pendiente
 
-- Pegar las **fotos del montaje** en la sección 3.1 (hay un placeholder).
+- Nada por ahora — fotos ya puestas, sección de campo revisada.
