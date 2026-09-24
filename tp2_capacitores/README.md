@@ -1,8 +1,9 @@
 # TP2 — Capacitores
 
-Informe en `tp2_capacitores.ipynb`. Los gráficos y 2 de las 3 fotos ya están embebidos en el
-notebook (se puede leer sin correr nada). Para regenerar los gráficos: *Restart Kernel + Run
-All* (necesita `numpy`, `matplotlib`).
+Informe en `tp2_capacitores.ipynb`. Los gráficos y las fotos ya están embebidos en el notebook
+(se puede leer sin correr nada; el esquema de la Introducción es un SVG dibujado inline, no
+depende de ninguna imagen externa). Para regenerar los gráficos: *Restart Kernel + Run All*
+(necesita `numpy`, `matplotlib`).
 
 ## Objetivo
 
@@ -13,14 +14,26 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 ## Estructura
 
 1. **Objetivo**
-2. **Materiales y montaje** *(incompleto, ver Pendiente)*
+2. **Materiales y montaje**
 3. **Introducción** — qué es un capacitor, de dónde sale $C=\dfrac{\varepsilon_0\,k\,A}{d}$
 4. **Procedimiento experimental** — 3 configuraciones de capacitor de placas paralelas (20×20 cm),
    cambiando el material/separación entre placas
-5. **Mediciones y resultados** — para cada configuración: tabla de 5 mediciones ($C$ vs. $d$),
-   gráfico de $C$ contra $1/d$ con ajuste lineal, y (en 2 de las 3) el cálculo de $k$ y $X_e$ a
+5. **Mediciones y resultados** — para cada una de las 3 configuraciones: tabla de 5 mediciones
+   ($C$ vs. $d$), gráfico de $C$ contra $1/d$ con ajuste lineal, y el cálculo de $k$ y $X_e$ a
    partir de la pendiente de esa recta
-6. **Conclusiones**
+6. **Conclusiones** (compara las 3 configuraciones y discute fuentes de error)
+
+## Qué se agregó respecto de la versión anterior
+
+- **Materiales y montaje** completo (antes decía `_COMPLETAR_` con una lista placeholder).
+- **Configuración 3** (acrílico en las esquinas + aire): cálculo de $k$ y $X_e$ a partir de la
+  pendiente, que antes quedaba sin cerrar. Da $k=(1{,}06\pm0{,}01)$, bastante más cerca del aire
+  que del acrílico puro — tiene sentido porque el acrílico solo ocupa una fracción chica del área
+  entre placas.
+- El esquema de un capacitor en la Introducción pasó de una imagen linkeada a un sitio externo
+  (que podía romperse) a un SVG dibujado inline, así no depende de internet.
+- **Conclusiones** reescritas para comparar las 3 configuraciones (no solo vidrio y acrílico) y
+  para discutir las fuentes de error del experimento.
 
 ## Configuraciones medidas
 
@@ -28,16 +41,8 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 |---|---|---:|---:|
 | 1 | Vidrio (distintos espesores) | $4\pm0{,}2$ | $3{,}0\pm0{,}2$ |
 | 2 | Acrílico (distintos espesores) | $2\pm0{,}1$ | $1{,}0\pm0{,}1$ |
-| 3 | Acrílico en las esquinas + aire | — | — *(sin calcular, ver Pendiente)* |
+| 3 | Acrílico en las esquinas + aire | $1{,}06\pm0{,}01$ | $0{,}06\pm0{,}01$ |
 
 ## Pendiente
 
-- **Materiales y montaje** está marcado `_COMPLETAR_`, con una lista placeholder ("Placas de
-  metal, Placas de vidrio, ETC").
-- La **configuración 3** (acrílico + aire) tiene su tabla de datos y su gráfico con ajuste
-  lineal, pero le falta el paso siguiente que sí tienen las otras dos: calcular $k$ y $X_e$ a
-  partir de la pendiente. Las conclusiones finales tampoco la mencionan (solo dan $X_e$ de
-  vidrio y acrílico).
-- La imagen de la Introducción (estructura de un capacitor) está linkeada a una página externa
-  (`circuitoelectrico.com`) — si esa página cae, la imagen se rompe. Las otras 2 fotos del
-  montaje sí están embebidas dentro del notebook (no dependen de internet).
+- Nada por ahora.
