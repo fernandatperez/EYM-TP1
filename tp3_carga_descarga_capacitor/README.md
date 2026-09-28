@@ -20,10 +20,14 @@ osciloscopio y se comparó contra la curva teórica.
 4. **Construcción de las curvas teóricas** — $V_C(t)$ e $I(t)$ esperadas, a la frecuencia real
    usada en la medición (200 Hz)
 5. **Análisis** (de la muestra teórica)
-6. **Mediciones con el osciloscopio** — lectura de `datos/DS0000.CSV`, gráfico de la señal medida,
-   ajuste de $\tau$ por flanco (carga y descarga), comparación de la frecuencia usada contra el
-   criterio de diseño de $5\tau$, señal completa medida vs. teórica, y análisis de la medición
-7. **Próximos pasos**
+6. **Mediciones con el osciloscopio**
+   - 6.1. Constante de tiempo medida
+   - 6.2. Comparación con la curva teórica
+   - 6.3. Señal completa: medición vs. muestra teórica a 200 Hz
+   - 6.4. Frecuencia del generador: criterio de diseño vs. usada
+   - 6.5. Análisis de las mediciones
+7. **Conclusiones** (compara $\tau$ teórico vs. medido, discute la causa probable de la
+   diferencia, y cierra la justificación de usar 200 Hz en vez del criterio de $5\tau$)
 
 ## Parámetros del circuito
 
