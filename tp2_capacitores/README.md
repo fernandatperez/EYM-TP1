@@ -5,6 +5,11 @@ Informe en `tp2_capacitores.ipynb`. Los gráficos y las fotos ya están embebido
 depende de ninguna imagen externa). Para regenerar los gráficos: *Restart Kernel + Run All*
 (necesita `numpy`, `matplotlib`).
 
+`tp2_capacitores_ENTREGA.ipynb` es una copia para mandar por mail. A diferencia del TP1, acá no
+hizo falta convertir nada: todas las fotos ya viven como adjuntos nativos de Jupyter dentro del
+propio `.ipynb` (no como archivos sueltos en una carpeta aparte), así que el archivo de trabajo ya
+es autocontenido — la copia es solo para mantener la misma convención de nombres que el TP1.
+
 ## Objetivo
 
 Armar capacitores de placas paralelas con distintas separaciones entre placas, medir su
@@ -26,10 +31,11 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 ## Qué se agregó respecto de la versión anterior
 
 - **Materiales y montaje** completo (antes decía `_COMPLETAR_` con una lista placeholder).
-- **Configuración 3** (acrílico en las esquinas + aire): cálculo de $k$ y $X_e$ a partir de la
+- **Configuración 1** (acrílico en las esquinas + aire): cálculo de $k$ y $X_e$ a partir de la
   pendiente, que antes quedaba sin cerrar. Da $k=(1{,}06\pm0{,}01)$, bastante más cerca del aire
   que del acrílico puro — tiene sentido porque el acrílico solo ocupa una fracción chica del área
-  entre placas.
+  entre placas. Es la única configuración de la que tenemos fotos (F, F+B, F+C, F+E), por eso va
+  primera en el orden de presentación.
 - El esquema de un capacitor en la Introducción pasó de una imagen linkeada a un sitio externo
   (que podía romperse) a un SVG dibujado inline, así no depende de internet.
 - **Conclusiones** reescritas para comparar las 3 configuraciones (no solo vidrio y acrílico) y
@@ -39,9 +45,9 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 
 | Configuración | Separador entre placas | $k$ | $X_e$ |
 |---|---|---:|---:|
-| 1 | Vidrio (distintos espesores) | $4\pm0{,}2$ | $3{,}0\pm0{,}2$ |
-| 2 | Acrílico (distintos espesores) | $2\pm0{,}1$ | $1{,}0\pm0{,}1$ |
-| 3 | Acrílico en las esquinas + aire | $1{,}06\pm0{,}01$ | $0{,}06\pm0{,}01$ |
+| 1 | Acrílico en las esquinas + aire | $1{,}06\pm0{,}01$ | $0{,}06\pm0{,}01$ |
+| 2 | Vidrio (distintos espesores) | $4\pm0{,}2$ | $3{,}0\pm0{,}2$ |
+| 3 | Acrílico (distintos espesores) | $2\pm0{,}1$ | $1{,}0\pm0{,}1$ |
 
 ## Pendiente
 
