@@ -32,7 +32,7 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 
 - **Materiales y montaje** completo (antes decía `_COMPLETAR_` con una lista placeholder).
 - **Configuración 1** (acrílico en las esquinas + aire): cálculo de $k$ y $X_e$ a partir de la
-  pendiente, que antes quedaba sin cerrar. Da $k=(1{,}06\pm0{,}01)$, bastante más cerca del aire
+  pendiente, que antes quedaba sin cerrar. Da $k=(1{,}07\pm0{,}02)$, bastante más cerca del aire
   que del acrílico puro — tiene sentido porque el acrílico solo ocupa una fracción chica del área
   entre placas. Es la única configuración de la que tenemos fotos (F, F+B, F+C, F+E), por eso va
   primera en el orden de presentación.
@@ -45,9 +45,9 @@ dieléctrica ($X_e$) de los materiales usados como separador.
 
 | Configuración | Separador entre placas | $k$ | $X_e$ |
 |---|---|---:|---:|
-| 1 | Acrílico en las esquinas + aire | $1{,}06\pm0{,}01$ | $0{,}06\pm0{,}01$ |
-| 2 | Vidrio (distintos espesores) | $4\pm0{,}2$ | $3{,}0\pm0{,}2$ |
-| 3 | Acrílico (distintos espesores) | $2\pm0{,}1$ | $1{,}0\pm0{,}1$ |
+| 1 | Acrílico en las esquinas + aire | $1{,}07\pm0{,}02$ | $0{,}07\pm0{,}02$ |
+| 2 | Vidrio (distintos espesores) | $3{,}6\pm0{,}2$ | $2{,}6\pm0{,}2$ |
+| 3 | Acrílico (distintos espesores) | $2{,}2\pm0{,}1$ | $1{,}2\pm0{,}1$ |
 
 ## Pendiente
 
