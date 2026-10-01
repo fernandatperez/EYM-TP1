@@ -2,7 +2,7 @@
 
 Informe en `tp3_carga_descarga_capacitor.ipynb`. Los gráficos y las salidas ya están embebidos
 en el notebook (se puede leer sin correr nada). Para regenerar todo: *Restart Kernel + Run All*
-(necesita `numpy`, `matplotlib` y el archivo `datos/DS0000.CSV`).
+(necesita `numpy`, `matplotlib`, `scipy` y el archivo `datos/DS0000.CSV`).
 
 ## Objetivo
 
@@ -39,7 +39,7 @@ osciloscopio y se comparó contra la curva teórica.
 | $V_0$ | $5\,V$ |
 | Frecuencia del generador | $200\,Hz$ |
 | $\tau$ teórico ($RC$) | $0{,}30\,ms$ |
-| $\tau$ medido (osciloscopio) | $(0{,}404\pm0{,}008)\,ms$ |
+| $\tau$ medido (osciloscopio) | $(0{,}401\pm0{,}003)\,ms$ |
 
 ## Equipos
 
@@ -52,7 +52,7 @@ Las fotos del montaje están en `imagenes/` y también embebidas en el notebook 
 
 ## Resultado principal
 
-El $\tau$ medido es un 35 % mayor que el teórico, de forma consistente en los 6 flancos
+El $\tau$ medido es un 34 % mayor que el teórico, de forma consistente en los 6 flancos
 capturados. La causa es la resistencia de salida del generador de funciones: según el
 fabricante, el AFG-2005 tiene $50\,\Omega$ de impedancia de salida, que quedan en serie con $R$.
 Con $R_{tot}=200\,\Omega$ el $\tau$ teórico pasa a ser $0{,}40\,ms$, que coincide con lo medido.
