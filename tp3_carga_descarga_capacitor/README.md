@@ -16,8 +16,7 @@ osciloscopio y se comparó contra la curva teórica.
 
 1. **Objetivo**
 2. **Materiales y montaje** — equipos usados, cómo se conectó el circuito y fotos del montaje
-3. **Introducción teórica** — esquema del circuito RC (con el sentido de referencia de $I$),
-   ecuaciones de carga y descarga, la regla de $5\tau$
+3. **Introducción teórica** — circuito RC, ecuaciones de carga y descarga, la regla de $5\tau$
 4. **Elección de los parámetros** — $R$, $C$ y $V_0$ usados, y la potencia que disipa $R$
 5. **Construcción de las curvas teóricas** — $V_C(t)$ e $I(t)$ esperadas, a la frecuencia real
    usada en la medición (200 Hz)
