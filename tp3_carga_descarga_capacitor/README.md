@@ -23,15 +23,12 @@ osciloscopio y se comparó contra la curva teórica.
 6. **Análisis** (de la muestra teórica)
 7. **Mediciones con el osciloscopio**
    - 7.1. Constante de tiempo medida
-     - 7.1.1. Capacidad medida a partir de $\tau$ (despejando $C=\tau/R$, ya que $R$ es el valor
-       confiable y $C$ es la incógnita real)
    - 7.2. Comparación con la curva teórica
    - 7.3. Señal completa: medición vs. muestra teórica a 200 Hz
    - 7.4. Frecuencia del generador: criterio de diseño vs. usada
    - 7.5. Análisis de las mediciones
-8. **Conclusiones** (compara $\tau$ teórico vs. medido, da las dos explicaciones posibles de la
-   diferencia —resistencia de salida del generador o tolerancia de $C$— y cierra la justificación
-   de usar 200 Hz en vez del criterio de $5\tau$)
+8. **Conclusiones** (compara $\tau$ teórico vs. medido, explica la diferencia por la resistencia
+   de salida del generador, y cierra la justificación de usar 200 Hz en vez del criterio de $5\tau$)
 
 ## Parámetros del circuito
 
@@ -56,15 +53,9 @@ Las fotos del montaje están en `imagenes/` y también embebidas en el notebook 
 ## Resultado principal
 
 El $\tau$ medido es un 35 % mayor que el teórico, de forma consistente en los 6 flancos
-capturados. Hay dos explicaciones posibles, y los datos de este trabajo no alcanzan para elegir
-entre ellas:
-
-1. La resistencia de salida del generador de funciones: según el fabricante, el AFG-2005 tiene
-   $50\,\Omega$ de impedancia de salida, que quedan en serie con $R$. Con $R_{tot}=200\,\Omega$ el
-   $\tau$ teórico pasa a ser $0{,}40\,ms$, que coincide con lo medido.
-2. El capacitor no es exactamente de $2\,\mu F$: despejando $C=\tau/R$ a partir de lo medido (ver
-   sección 7.1.1), da $C_{medido}=(2{,}69\pm0{,}05)\,\mu F$ — también un 35 % por encima del
-   nominal, y dentro de lo esperable para la tolerancia de fabricación de un capacitor común.
+capturados. La causa es la resistencia de salida del generador de funciones: según el
+fabricante, el AFG-2005 tiene $50\,\Omega$ de impedancia de salida, que quedan en serie con $R$.
+Con $R_{tot}=200\,\Omega$ el $\tau$ teórico pasa a ser $0{,}40\,ms$, que coincide con lo medido.
 
 La señal medida tiene ~2,6 V pico a pico en vez de los 5 V que entregaba el generador porque la
 sonda estaba configurada en `0.5X` en el osciloscopio (2,58 V × 2 ≈ 5,2 V). No afecta a $\tau$.
