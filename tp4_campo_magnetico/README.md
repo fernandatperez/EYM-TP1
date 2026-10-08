@@ -22,4 +22,6 @@ Informe en `tp4_campo_magnetico.ipynb`. Todavía en desarrollo.
   Conclusiones** siguen marcados `_COMPLETAR_`, a la espera del enunciado y de los datos de la
   medición.
 - La foto `imagenes/pizarron_espira.jpeg` (pizarrón con la derivación) es solo una referencia de
-  trabajo, no una figura pensada para la entrega final.
+  trabajo, no se usa en el notebook. La figura que sí se usa, embebida en la Introducción
+  teórica, es `imagenes/campo.jpeg` (diagrama de la espira con $\theta$, $\vec{r}$ y $d\vec{B}$
+  descompuesto en $dB_x$ y $dB_y$).
