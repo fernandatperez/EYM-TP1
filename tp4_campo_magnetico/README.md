@@ -8,8 +8,10 @@ Informe en `tp4_campo_magnetico.ipynb`. Todavía en desarrollo.
 2. **Materiales y montaje**
 3. **Introducción teórica** — ley de Biot-Savart, regla de la mano derecha, principio de
    superposición, campo de un cable infinito, campo sobre el eje de una espira circular
-   (con gráfico de la curva de campana resultante) y qué pasa al sumar dos espiras coaxiales
-   separadas una distancia l (gráfico de la "M" que forma la superposición de los dos campos)
+   (con gráfico de la curva de campana resultante), qué pasa al sumar dos espiras coaxiales
+   separadas una distancia l (gráfico de la "M" que forma la superposición de los dos campos),
+   y una comparación de 6 separaciones l/d en un mismo gráfico para mostrar cuándo aparece esa
+   M y cuándo no (incluye el caso l=d, la condición de Helmholtz)
 4. **Procedimiento experimental**
 5. **Mediciones y resultados**
 6. **Conclusiones**
