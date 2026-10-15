@@ -4,6 +4,10 @@ Informe en `tp3_carga_descarga_capacitor.ipynb`. Los gráficos y las salidas ya 
 en el notebook (se puede leer sin correr nada). Para regenerar todo: *Restart Kernel + Run All*
 (necesita `numpy`, `matplotlib`, `scipy` y el archivo `datos/DS0000.CSV`).
 
+`tp3_carga_descarga_capacitor_ENTREGA.ipynb` es una copia para mandar por mail — como en el TP2,
+las fotos ya viven como adjuntos nativos de Jupyter, así que es autocontenida (el `.csv` solo hace
+falta para volver a ejecutar el análisis, no para leer el informe).
+
 ## Objetivo
 
 Antes de la instancia de medición, la cátedra pidió una muestra teórica del comportamiento de
