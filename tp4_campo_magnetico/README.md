@@ -1,11 +1,21 @@
 # TP4 — Campo magnético
 
-Informe en `tp4_campo_magnetico.ipynb`. Todavía en desarrollo.
+Informe en `tp4_campo_magnetico.ipynb`. El cuerpo teórico y el resultado principal ya están
+completos; falta pulir redacción y, opcionalmente, embeber las fotos del armado.
 
 ## Objetivo
 
 Determinar el campo magnético terrestre, usando un par de bobinas de Helmholtz para generar un
 campo conocido y controlable, combinado con el campo terrestre en la misma región.
+
+## Resultado
+
+$$B_{tierra} = 18{,}21\,\mu T$$
+
+Obtenido con $N=200$ vueltas, $d=0,12\,m$ ($l=d$, Helmholtz), ajustando la corriente hasta lograr
+$45°$ de desviación en la brújula ($I=12,15\,mA$, circuito en serie: fuente → multímetro →
+bobina 1 → bobina 2 → fuente). Coherente con los valores de referencia típicos para Argentina
+(18 a 25 µT de componente horizontal, según fuentes generales — ver Conclusiones en el notebook).
 
 ## Estructura
 
@@ -23,19 +33,23 @@ campo conocido y controlable, combinado con el campo terrestre en la misma regi�
    bobinas de N vueltas aplicada a los valores reales del armado (da B_centro = 1498,6 µT por
    cada Ampere), y el método de la brújula / galvanómetro de tangentes (por qué buscan una
    desviación de 45°: ahí B_bobina=B_tierra, sin necesidad de calcular ningún arcotangente)
-4. **Procedimiento experimental** — orientar las bobinas perpendicular al campo terrestre, subir
-   la corriente hasta lograr 45° de desviación en la brújula, registrar esa corriente
-5. **Mediciones y resultados**
-6. **Conclusiones**
+4. **Procedimiento experimental** — circuito en serie (fuente → multímetro → bobina 1 → bobina 2),
+   orientar las bobinas perpendicular al campo terrestre, subir la corriente hasta lograr 45° de
+   desviación en la brújula
+5. **Mediciones y resultados** — I=12,15 mA medidos en el punto de 45°, cálculo de B_tierra
+6. **Conclusiones** — comparación contra valores de referencia y fuentes de error
 
 ## Pendiente
 
-- **Falta el valor de la corriente $I$** medida en el laboratorio (la que logra los 45° de
-  desviación) — con eso se calcula $B_{tierra}$ en la sección de Mediciones y resultados.
-- **Mediciones y resultados y Conclusiones** siguen marcados `_COMPLETAR_`.
-- Hay 4 fotos del equipo en `imagenes/` (`bobinas_helmholtz.jpeg`, `fuente_frente.jpeg`,
-  `fuente_atras.jpeg`, `medicion_radio.jpeg`, `medicion_separacion.jpeg`) que todavía no están
-  embebidas en el notebook — son material de referencia por ahora.
+- Revisar/pulir la redacción de Mediciones y Conclusiones (se escribieron directo con los datos
+  que fue pasando el grupo, conviene una relectura).
+- Hay 8 fotos en `imagenes/` que documentan el armado y la medición
+  (`bobinas_helmholtz.jpeg`, `fuente_frente.jpeg`, `fuente_atras.jpeg`, `medicion_radio.jpeg`,
+  `medicion_separacion.jpeg`, `multimetro_lectura.jpeg`, `brujula_desviacion.jpeg`,
+  `fuente_lectura_45grados.jpeg`) que todavía no están embebidas en el notebook — decidir si
+  conviene sumar alguna a Materiales y montaje o a Mediciones, como se hizo en TP1-TP3.
 - La foto `imagenes/pizarron_espira.jpeg` (pizarrón con la derivación) tampoco se usa en el
   notebook. La figura que sí se usa, embebida en la Introducción teórica, es `imagenes/campo.jpeg`
   (diagrama de la espira con $\theta$, $\vec{r}$ y $d\vec{B}$ descompuesto en $dB_x$ y $dB_y$).
+- Falta el `tp4_campo_magnetico_ENTREGA.ipynb` (copia final), siguiendo la convención de TP1-TP3,
+  una vez que el contenido esté cerrado.
