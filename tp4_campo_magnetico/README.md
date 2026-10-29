@@ -26,11 +26,13 @@ Con $N=200$, $d=0,12\,m$ ($l=d$, Helmholtz), $I_{45}=12,15\,mA$. Comparado contr
 **WMM2025** para la UNSAM el día de la medición ($16,92\,\mu T$): un 7,6% más alto, del orden del
 doble del error estimado — la lectura del ángulo es la fuente de error dominante.
 
-**Método del sensor** (no concluyente): la curva teórica da un pico ~4 veces más alto que el
-medido con el sensor Vernier, y las curvas solo coinciden lejos del centro — un patrón que no se
-explica por el campo terrestre (que daría un corrimiento parejo, no un factor que desaparece en
-los extremos). La hipótesis más consistente es un problema de calibración del sensor (la llave de
-amplificación HIGH x200 / LOW x10), sin poder confirmarlo.
+**Método del sensor:** la curva teórica cruda da un pico ~4 veces más alto que el medido. Pero
+con las medidas reales intactas (N=100, d=12,375cm, l=10,5cm, I=0,68A) y permitiendo un offset de
+calibración más un factor de escala, el ajuste es casi perfecto (residuo de 0,40 µT):
+$B_{offset}=107,9\,\mu T$ y $k=0,052$ ($1/k\approx19$, muy cercano a la relación 200/10=20 de la
+llave de amplificación HIGH/LOW del sensor). Más consistente con un sensor sin tarar y con la
+ganancia mal configurada que con un error en N, d o l (que para ajustar igual de bien requeriría
+un radio de ~64cm, incompatible con las fotos del armado).
 
 ## Estructura
 
@@ -42,8 +44,10 @@ amplificación HIGH x200 / LOW x10), sin poder confirmarlo.
    método de la brújula (incluye por qué 45° minimiza el error de lectura, con diagrama vectorial)
 4. **Procedimiento experimental** — 4.1 método de la brújula (pasos detallados, con las
    precauciones que agregó el compañero), 4.2 método del sensor
-5. **Mediciones y resultados** — 5.1 comparación teoría vs. sensor (gráfico + discusión de la
-   discrepancia), 5.2 resultado de la brújula con análisis de error y comparación contra WMM
+5. **Mediciones y resultados** — 5.1 comparación teoría vs. sensor (gráfico + tabla completa de
+   datos + discusión de la discrepancia), 5.1.1 corrección con offset + escala (gráfico mostrando
+   el ajuste casi perfecto), 5.2 resultado de la brújula con análisis de error y comparación
+   contra WMM
 6. **Conclusiones** — síntesis de los dos experimentos
 
 ## Pendiente
