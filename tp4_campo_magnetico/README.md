@@ -5,6 +5,11 @@ brújula) con el de un compañero que avanzó por su cuenta en la rama `tp4-fina
 error y referencia WMM), y suma la comparación contra el experimento del sensor Vernier que hizo
 el resto de la clase.
 
+`tp4_campo_magnetico_ENTREGA.ipynb` es una copia para mandar por mail. A diferencia del TP2 y el
+TP3, acá **no** es autocontenida: el diagrama de la espira (sección 3) se referencia desde
+`imagenes/campo.jpeg` como archivo externo, igual que en el TP1 — hay que mandar la carpeta
+`imagenes/` junto con el notebook para que esa imagen se vea.
+
 ## Objetivo
 
 Determinar la componente horizontal del campo magnético terrestre con bobinas de Helmholtz, por
@@ -48,7 +53,5 @@ amplificación HIGH x200 / LOW x10), sin poder confirmarlo.
   `multimetro_lectura.jpeg`, `brujula_desviacion.jpeg`, `fuente_lectura_45grados.jpeg`) y 6 del
   experimento del sensor en `imagenes/experimento/` — ninguna está embebida todavía en el
   notebook. Decidir si conviene sumar alguna a Materiales y montaje.
-- Falta reconciliar esta rama con `tp4-final` (la del compañero) y con `main` — hay trabajo de
-  TP4 en las tres, con superposición parcial.
-- Falta el `tp4_campo_magnetico_ENTREGA.ipynb` (copia final), siguiendo la convención de TP1-TP3,
-  una vez que el contenido esté cerrado.
+- Falta reconciliar esta rama (`tp4-final-para-entrega`) con `tp4-final` (la del compañero) y con
+  `main` — hay trabajo de TP4 en las tres, con superposición parcial.
