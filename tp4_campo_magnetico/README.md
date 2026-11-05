@@ -5,10 +5,10 @@ brújula) con el de un compañero que avanzó por su cuenta en la rama `tp4-fina
 error y referencia WMM), y suma la comparación contra el experimento del sensor Vernier que hizo
 el resto de la clase.
 
-`tp4_campo_magnetico_ENTREGA.ipynb` es una copia para mandar por mail. A diferencia del TP2 y el
-TP3, acá **no** es autocontenida: el diagrama de la espira (sección 3) se referencia desde
-`imagenes/campo.jpeg` como archivo externo, igual que en el TP1 — hay que mandar la carpeta
-`imagenes/` junto con el notebook para que esa imagen se vea.
+`tp4_campo_magnetico_ENTREGA.ipynb` es una copia para mandar por mail, autocontenida (igual que
+TP2 y TP3): todas las fotos del armado son adjuntos nativos de Jupyter, y el diagrama de la
+espira (sección 3) que antes dependía de `imagenes/campo.jpeg` como archivo externo ahora está
+embebido como imagen en base64 directo en el `<img>`.
 
 ## Objetivo
 
@@ -54,8 +54,6 @@ un radio de ~64cm, incompatible con las fotos del armado).
 
 ## Pendiente
 
-- Falta que el `_ENTREGA.ipynb` sea autocontenido: el diagrama de la espira (sección 3) todavía
-  depende de `imagenes/campo.jpeg` como archivo externo, igual que pasaba al principio en el TP1.
 - Esta rama (`tp4-final-entrega`) no se reconcilió a nivel git con `tp4-final` (la del compañero)
   ni con `main` — hay trabajo de TP4 en las tres. Lo relevante de `tp4-final` ya se fusionó a mano
   acá, así que por ahora se deja así a propósito (no es prioridad tener el historial de git
